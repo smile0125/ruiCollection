@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 小男孩的笔记
+title: 作品集
 subtitle: "前端笔记，技术分享"
 description: "前端技术分析，记录前端笔记，沉淀相关技术"
 keywords: "前端，javascript，浏览器， react，http，算法"
@@ -14,7 +14,7 @@ timezone: ""
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 #url: https://smile0125.github.io/
-url: http://reddest.gitee.io
+url: https://gitee.com/reddest/rui
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -24,9 +24,9 @@ pretty_urls:
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
+# tag_dir: tags
+# archive_dir: archives
+# category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: keep
+# theme: keep
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -106,7 +106,6 @@ deploy:
   #repo: "git@github.com:smile0125/smile0125.github.io.git"
   #name: "smile林125"
   type: "git"
-  repo: "https://gitee.com/reddest/reddest.git"
+  repo: "https://gitee.com/reddest/rui.git"
   branch: "main"
-  name: "reddest"
-  email: "1045416962@qq.com"
+  name: "lr"
